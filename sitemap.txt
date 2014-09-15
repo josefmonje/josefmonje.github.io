@@ -1,0 +1,14 @@
+./index.html
+./archives.html
+./tags.html
+./categories.html
+./index.html
+./archives.html
+./tags.html
+./categories.html
+./hello-again-pelican-2.html
+./hello-again-pelican.html
+./hello-pelican.html
+./category/category.html
+./category/misc.html
+./author/josef-monje.html
