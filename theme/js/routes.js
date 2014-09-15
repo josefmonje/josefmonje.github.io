@@ -4,6 +4,9 @@
 // Think of this like Django URLS.
 URLS = function($routeProvider) { 
   $routeProvider
+    .when('/done-for-tonight.html', {
+      templateUrl: 'done-for-tonight.html',
+    })
     .when('/hello-again-pelican-2.html', {
       templateUrl: 'hello-again-pelican-2.html',
     })

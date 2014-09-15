@@ -94,7 +94,7 @@ li {
 }
 @media screen and (min-width: 60em) {
   .pure-g {
-    padding: 0em 8em 0em 8em;
+    padding: 1em 8em 0em 8em;
   }
   header a {
     font-size: 200%;
