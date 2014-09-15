@@ -4,6 +4,7 @@
   <title>Josef Monje</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+  <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
   <link href="./" type="application/atom+xml" rel="alternate" title="Josef Monje ATOM Feed" />
   <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -13,81 +14,6 @@
   <!--[if lt IE 7]>
     <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
 <style type="text/css">
-html {
-  overflow: -moz-scrollbars-vertical;
-  overflow: scroll;
-}
-header {
-  font-family: "omnes-pro", sans-serif !important;
-  text-decoration: none;
-  padding-top: 1em;
-  border-bottom: solid 1px #eee;
-  font-size: 250%;
-}
-li {
-  line-height: 1.5em;
-}
-
-.pure-g {
-  padding: 0em 8em 0em 8em;
-}
-@-webkit-keyframes fade_in {
-  from { opacity:.2; }
-  to { opacity:1; }
-}
-@keyframes fade_in {
-  from { opacity:.2; }
-  to { opacity:1; }
-}
-.reveal.ng-enter {
-  -webkit-animation: fade_in .5s linear; /* Safari/Chrome */
-  animation: fade_in .5s linear; /* IE10+ and Future Browsers */
-  -webkit-animation-fill-mode: forwards;  
-  animation-fill-mode: forwards;  
-}
-.reveal {
-  padding: 2em 4em 1em 4em;
-}
-/* Social */
-.social li {
-  font-size: 1.25em;
-  padding-bottom: 1em;
-  list-style-type: none;
-}
-
-.social a {
-  background-repeat: no-repeat;
-  padding-left: 25px;
-  text-decoration: none;
-}
-
-/* Icons */
-.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
-.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
-.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
-.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
-.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
-.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
-.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
-.social a[href*='github.com'],
-.social a[href*='git.io'] {
-    background-image: url('../images/icons/github.png');
-    background-size: 16px 16px;
-}
-.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
-.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
-.social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
-.social a[href*='news.ycombinator.com'],
-.social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
-.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
-.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
-.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
-.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
-.social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
-.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
-.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
-.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 </style>
 </head>
 
@@ -97,8 +23,6 @@ li {
 <header>
   <div class="pure-menu pure-menu-open pure-menu-horizontal">
     <a class="header" href="."><strong>Josef Monje</strong> .com</a>
-    <ul>
-    </ul>
   </div>
 </header>
 </div>
@@ -111,7 +35,6 @@ li {
 <div class="social">
   <h2>Social</h2>
   <ul>
-
     <li><a href="http://twitter.com/josefmonje">@josefmonje</a></li>
     <li><a href="https://github.com/josefmonje">GitHub</a></li>
     <li><a href="http://linkedin.com/in/josefmonje">LinkedIn</a></li>
@@ -129,12 +52,8 @@ li {
           <li><a href="#/hello-pelican.html" rel="bookmark" title="Permalink to Hello Pelican">Hello Pelican</a></li>
       </ul>
   </section><!-- .article-list -->
-  <section class="category-tag">
-    <h2>Categories | Tags</h2>
-    <ul>
-        <li><a href="#/categories.html">Categories</a></li>
-    </ul>
-  </section><!-- .category-tag -->
+
+
 </div>
 
 <div class="pure-u-1-1">
