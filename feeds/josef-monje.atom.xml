@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Josef Monje</title><link href="http://josefmonje.com/" rel="alternate"></link><link href="http://josefmonje.com/feeds%5Cjosef-monje.atom.xml" rel="self"></link><id>http://josefmonje.com/</id><updated>2014-09-15T00:00:00+08:00</updated><entry><title>Hello World</title><link href="http://josefmonje.com/hello-world.html" rel="alternate"></link><updated>2014-09-15T00:00:00+08:00</updated><author><name>Josef Monje</name></author><id>tag:josefmonje.com,2014-09-15:hello-world.html</id><summary type="html">&lt;p&gt;Obligatory Hello World &lt;i class="fa fa-globe"&gt;&lt;/i&gt; post.&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-thumbs-o-up"&gt;&lt;/i&gt;&lt;/p&gt;</summary></entry></feed>
