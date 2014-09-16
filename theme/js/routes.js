@@ -1,40 +1,29 @@
 (function() {
 'use strict;'
 
-// Think of this like Django URLS.
 URLS = function($routeProvider) { 
   $routeProvider
-    .when('/done-for-tonight.html', {
-      templateUrl: 'done-for-tonight.html',
-    })
-    .when('/hello-again-pelican-2.html', {
-      templateUrl: 'hello-again-pelican-2.html',
-    })
-    .when('/hello-again-pelican.html', {
-      templateUrl: 'hello-again-pelican.html',
-    })
-    .when('/hello-pelican.html', {
-      templateUrl: 'hello-pelican.html',
-    })
-    .when('/categories.html', {
-      templateUrl: 'categories.html',
-    })
-    .when('/tags.html', {
-      templateUrl: 'tags.html',
-    })
     .when('/', {
+      templateUrl: '/archives.html',
+    })
+    .when('/:path*\/?', {
+      templateUrl: function($routeParams){
+        return $routeParams.path
+      },
     })
     .otherwise({
       redirectTo: '/'
     })
 }
 
-// This is the module name.
-angular.module('app', [
-  // Angular.js routing module.
-  'ngRoute',
-  'ngAnimate',
+angular
+  .module('app', [
+    'ngRoute',
+    'ngAnimate',
   ])
-  .config(URLS)
+  .config([
+    '$routeProvider',
+    URLS,
+  ])
 
 })();
