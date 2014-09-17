@@ -146,7 +146,7 @@ a, .post-title {
   .reveal {
     padding: 0em 1em 0em 1em;
   }
-  article p, .post-title {
+  article p {
     font-size: 150%;
   }
   #content, #paginator {
