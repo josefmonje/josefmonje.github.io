@@ -47,19 +47,23 @@ li, tr, dl, dt, dd {
 a {
   color: #3b8bba;
 }
-#paginator {
-  text-align: right;
+.pure-menu {
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  background-color: #CCCCCC !important;
+  color: #CE0000 !important;
 }
 .page-link {
   font-size: 100% !important;
+}
+#first .post-title {
+  font-size: 200% !important;
 }
 .post-title {
   font-size: 150% !important;
   text-decoration: none;
   color: #CE0000;
-}
-#first .post-title {
-  font-size: 200% !important;
 }
 #sidebar {
   background: linear-gradient(
@@ -76,13 +80,18 @@ a {
   color: #FFFFFF;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
+#paginator {
+  text-align: right;
+}
+.pure-button-red {
+  background-color: #CE0000;
+}
 
 /* Social */
 .social li {
   list-style-type: none;
   display: inline-block !important;
 }
-
 .social a {
   padding-left: 25px;
   background-repeat: no-repeat;
@@ -98,10 +107,7 @@ a {
 .social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
 .social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
 .social a[href*='github.com'],
-.social a[href*='git.io'] {
-    background-image: url('../images/icons/github.png');
-    background-size: 16px 16px;
-}
+.social a[href*='git.io'] {background-image: url('../images/icons/github.png');background-size: 16px 16px;}
 .social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
 .social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
 .social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
@@ -172,14 +178,4 @@ a {
   .reveal {
     padding: 0em 4em 1em 4em;
   }
-}
-.pure-menu {
-  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  background-color: #CCCCCC !important;
-  color: #CE0000 !important;
-}
-.pure-button-red {
-  background-color: #CE0000;
 }
