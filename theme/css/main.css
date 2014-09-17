@@ -47,16 +47,6 @@ li, tr, dl, dt, dd {
 a {
   color: #3b8bba;
 }
-.pure-menu {
-  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  background-color: #CCCCCC !important;
-  color: #CE0000 !important;
-}
-.pure-button-red {
-  background-color: #CE0000;
-}
 #paginator {
   text-align: right;
 }
@@ -182,4 +172,14 @@ a {
   .reveal {
     padding: 0em 4em 1em 4em;
   }
+}
+.pure-menu {
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  background-color: #CCCCCC !important;
+  color: #CE0000 !important;
+}
+.pure-button-red {
+  background-color: #CE0000;
 }
