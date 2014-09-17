@@ -119,7 +119,7 @@ a {
 
 /* Icons */
 .social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
-.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
+.social a[href*='atom.xml'], .social a[href*='rss.xml'] {background-image: url('../images/icons/rss.png');}
 .social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
 .social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
 .social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
