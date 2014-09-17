@@ -78,7 +78,7 @@ a {
     #ACACAC 50%,
     #ACACAC
   );
-  background-size: 100% 2em !important;
+  background-size: 100% 1.25em !important;
   padding-left: 2em !important;
   color: #CE0000;
 }
