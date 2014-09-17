@@ -39,7 +39,7 @@ footer {
   height: 2em;
   width: 100%;
   color: #16161D;
-  background-color: #f2f2f2;
+  background-color: #887000;
 }
 h2 {
   color: #777;
@@ -54,6 +54,7 @@ a {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  background-color: #3CBCFC;
 }
 .page {
   font-size: 100% !important;
