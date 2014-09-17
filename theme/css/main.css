@@ -84,13 +84,16 @@ a {
 }
 
 #paginator {
-  text-align: right;
+  text-align: left;
 }
 .pure-button-red {
   background-color: #CE0000;
 }
 
 /* Social */
+.social {
+  background-color: #16161D;
+}
 .social li {
   list-style-type: none;
   display: inline-block !important;
