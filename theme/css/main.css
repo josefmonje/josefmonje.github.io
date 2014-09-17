@@ -71,7 +71,6 @@ a {
   font-size: 200% !important;
 }
 #sidebar {
-  background-size: 100% 20px;
   background: linear-gradient(
     to bottom,
     #4F4F4F,
@@ -79,8 +78,9 @@ a {
     #ACACAC 50%,
     #ACACAC
   );
+  background-size: 100% 2em !important;
   padding-left: 2em !important;
-  color: #3b8bba;
+  color: #CE0000;
 }
 
 /* Social */
