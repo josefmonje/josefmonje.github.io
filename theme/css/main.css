@@ -34,7 +34,7 @@ header {
   color: #CE0000 !important;
 }
 .pure-menu-heading {
-  text-transform: none !important;
+  font-size: 150% !important;
 }
 body {
   margin: 0 0 1em; /* bottom = footer height */
