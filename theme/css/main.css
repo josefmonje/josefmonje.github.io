@@ -91,7 +91,7 @@ a {
 }
 
 /* Social */
-.social {
+.social, #sidebar {
   border: solid 2px #16161D;
 }
 .social li {
