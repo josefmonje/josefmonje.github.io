@@ -36,7 +36,7 @@ header {
 }
 body {
   margin: 0 0 1em; /* bottom = footer height */
-  background-color: #ACACAC;
+  background-color: #DDDDDD;
 }
 footer {
   text-align: center;
@@ -47,7 +47,7 @@ footer {
   height: 2em;
   width: 100%;
   color: #CCCCCC;
-  background-color: #4F4F4F;
+  background-color: #6E6E6E;
 }
 li, tr, dl, dt, dd {
   line-height: 1.5em !important;
@@ -72,8 +72,8 @@ a {
     to bottom,
     #4F4F4F,
     #4F4F4F 50%,
-    #ACACAC 50%,
-    #ACACAC
+    #DDDDDD 50%,
+    #DDDDDD
   );
   background-size: 100% 1.25em !important;
   padding: .25em 2em .25em !important;
@@ -92,7 +92,7 @@ a {
 
 /* Social */
 .social {
-  background-color: #16161D;
+  border: solid 2px #16161D;
 }
 .social li {
   list-style-type: none;
