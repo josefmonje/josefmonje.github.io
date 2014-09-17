@@ -54,7 +54,7 @@ a {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  background-color: #3CBCFC;
+  background-color: #3CBCFC !important;
 }
 .page {
   font-size: 100% !important;
