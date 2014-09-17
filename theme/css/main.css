@@ -34,6 +34,9 @@ footer {
 li, tr, dl, dt, dd {
   line-height: 1.5em !important;
 }
+ul {
+  padding: 0 0 0 0px !important;
+}
 a, .post-title {
   color: #CE0000;
 }
