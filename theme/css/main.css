@@ -71,8 +71,13 @@ a {
   font-size: 200% !important;
 }
 #sidebar {
-  width: 50%;
-  background-color: #464646;
+  background: linear-gradient(
+    to bottom,
+    #4F4F4F,
+    #4F4F4F 50%,
+    #ACACAC 50%,
+    #ACACAC
+  );
 }
 #paginator {
   text-align: right;
