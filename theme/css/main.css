@@ -23,7 +23,6 @@ html {
   position: relative;
 }
 header {
-  font-family: 'Press Start 2P', cursive;
   text-decoration: none;
   margin-bottom: 1em;
 }
@@ -58,8 +57,10 @@ li, tr, dl, dt, dd {
 a {
   color: #CE0000;
 }
+.retro, .post-title {
+  font-family: 'Press Start 2P', cursive;
+}
 .post-title {
-  font-size: 150% !important;
   text-decoration: none;
   color: #CE0000;
 }
