@@ -39,7 +39,7 @@ footer {
   height: 2em;
   width: 100%;
   color: #16161D;
-  background-color: #787576;
+  background-color: #ACACAC;
 }
 h2 {
   color: #777;
@@ -65,7 +65,7 @@ a {
 .post-title {
   font-size: 150% !important;
   text-decoration: none;
-  color: #777;
+  color: #CE0000;
 }
 #first .post-title {
   font-size: 200% !important;
