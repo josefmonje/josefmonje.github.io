@@ -78,7 +78,7 @@ a {
     #16161D 50%,
     #16161D
   );
-  background-size: 100% 1.25em !important;
+  background-size: 100% 1em !important;
 }
 #sidebar, .tags, .categories {
   padding: .25em 2em !important;
