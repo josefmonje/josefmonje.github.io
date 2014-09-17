@@ -89,9 +89,12 @@ a {
 .pure-button-red {
   background-color: #CE0000;
 }
+.categories, .tags {
+  background-color: #16161D;
+}
 
-/* Social */
-.social, #sidebar {
+/* Sidebar - Social */
+.social, #sidebar, .categories, .tags {
   border: solid 2px #16161D;
 }
 .social li {
