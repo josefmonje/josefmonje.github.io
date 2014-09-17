@@ -54,9 +54,6 @@ li, tr, dl, dt, dd {
 a {
   color: #CE0000;
 }
-.pure-menu-heading {
-  font-size: 150% !important;
-}
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
 }
