@@ -76,7 +76,9 @@ a {
     #DDDDDD
   );
   background-size: 100% 1.25em !important;
-  padding: .25em 2em .25em !important;
+}
+#sidebar, .tags, .categories {
+  padding: .25em 2em !important;
 }
 #sidebar h2, #sidebar a {
   color: #FFFFFF;
