@@ -89,7 +89,7 @@ a {
   color: #FFFFFF;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
-#sidebar {
+.posts {
   min-height: 24em;
 }
   .categories, .tags {
