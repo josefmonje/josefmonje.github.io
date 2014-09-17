@@ -27,8 +27,16 @@ header {
   text-decoration: none;
   margin-bottom: 1em;
 }
+.pure-menu {
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
+  /*background-color: #CCCCCC !important;*/
+  color: #CE0000 !important;
+}
 body {
-    margin: 0 0 1em; /* bottom = footer height */
+  margin: 0 0 1em; /* bottom = footer height */
+  background-color: #ACACAC;
 }
 footer {
   text-align: center;
@@ -39,20 +47,13 @@ footer {
   height: 2em;
   width: 100%;
   color: #CCCCCC;
-  background-color: #ACACAC;
+  background-color: #4F4F4F;
 }
 li, tr, dl, dt, dd {
   line-height: 1.5em !important;
 }
 a {
   color: #CE0000;
-}
-.pure-menu {
-  -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  background-color: #CCCCCC !important;
-  color: #CE0000 !important;
 }
 .page-link {
   font-size: 100% !important;
@@ -65,6 +66,7 @@ a {
   text-decoration: none;
   color: #CE0000;
 }
+
 #sidebar {
   background: linear-gradient(
     to bottom,
@@ -80,6 +82,7 @@ a {
   color: #FFFFFF;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
+
 #paginator {
   text-align: right;
 }
