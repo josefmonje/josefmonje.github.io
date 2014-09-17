@@ -58,12 +58,6 @@ li, tr, dl, dt, dd {
 a {
   color: #CE0000;
 }
-.page-link {
-  font-size: 100% !important;
-}
-#first .post-title {
-  font-size: 200% !important;
-}
 .post-title {
   font-size: 150% !important;
   text-decoration: none;
