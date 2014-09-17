@@ -38,11 +38,8 @@ footer {
   bottom: 0;
   height: 2em;
   width: 100%;
-  color: #16161D;
+  color: #CCCCCC;
   background-color: #ACACAC;
-}
-h2 {
-  color: #777;
 }
 li, tr, dl, dt, dd {
   line-height: 1.5em !important;
@@ -56,10 +53,13 @@ a {
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   background-color: #CCCCCC !important;
 }
-.pure-button-primary {
+.pure-button-red {
   background-color: #CE0000;
 }
-.page {
+#paginator {
+  text-align: right;
+}
+.page-link {
   font-size: 100% !important;
 }
 .post-title {
@@ -71,6 +71,7 @@ a {
   font-size: 200% !important;
 }
 #sidebar {
+  background-size: 100% 20px;
   background: linear-gradient(
     to bottom,
     #4F4F4F,
@@ -78,10 +79,8 @@ a {
     #ACACAC 50%,
     #ACACAC
   );
-  background-size: 100% 20px;
-}
-#paginator {
-  text-align: right;
+  padding-left: 2em !important;
+  color: #3b8bba;
 }
 
 /* Social */
