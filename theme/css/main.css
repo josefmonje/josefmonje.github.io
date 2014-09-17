@@ -84,7 +84,7 @@ a {
   padding: .25em 2em !important;
 }
 #sidebar, .social, .tags, .categories {
-  padding: .25em 2em !important;
+  padding: .125em 2em !important;
   max-width: 12em;
   border: solid 2px #16161D;
 }
