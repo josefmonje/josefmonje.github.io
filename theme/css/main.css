@@ -54,7 +54,10 @@ a {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  background-color: #CDCBC7 !important;
+  background-color: #CCCCCC !important;
+}
+.pure-button-primary {
+  background-color: #CE0000;
 }
 .page {
   font-size: 100% !important;
@@ -68,7 +71,8 @@ a {
   font-size: 200% !important;
 }
 #sidebar {
-  background-color: #333333;
+  width: 50%;
+  background-color: #464646;
 }
 #paginator {
   text-align: right;
