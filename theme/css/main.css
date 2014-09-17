@@ -1,20 +1,4 @@
 @import url('font-awesome.css');
-/* Animation */
-@-webkit-keyframes fade_in {
-  from { opacity:.2; }
-  to { opacity:1; }
-}
-@keyframes fade_in {
-  from { opacity:.2; }
-  to { opacity:1; }
-}
-.reveal.ng-enter {
-  -webkit-animation: fade_in .5s linear; /* Safari/Chrome */
-  animation: fade_in .5s linear; /* IE10+ and Future Browsers */
-  -webkit-animation-fill-mode: forwards;  
-  animation-fill-mode: forwards;  
-}
-
 /* Layout Tweaks */
 html {
   overflow-y: -moz-scrollbars-vertical;
@@ -30,7 +14,6 @@ header {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  /*background-color: #CCCCCC !important;*/
   color: #CE0000 !important;
 }
 body {
@@ -51,17 +34,30 @@ footer {
 li, tr, dl, dt, dd {
   line-height: 1.5em !important;
 }
-a {
+a, .post-title {
   color: #CE0000;
 }
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
 }
-.post-title {
-  text-decoration: none;
-  color: #CE0000;
+
+/* Animation */
+@-webkit-keyframes fade_in {
+  from { opacity:.2; }
+  to { opacity:1; }
+}
+@keyframes fade_in {
+  from { opacity:.2; }
+  to { opacity:1; }
+}
+.reveal.ng-enter {
+  -webkit-animation: fade_in .5s linear; /* Safari/Chrome */
+  animation: fade_in .5s linear; /* IE10+ and Future Browsers */
+  -webkit-animation-fill-mode: forwards;  
+  animation-fill-mode: forwards;  
 }
 
+/* Sidebar */
 #sidebar {
   background: linear-gradient(
     to bottom,
@@ -72,13 +68,8 @@ a {
   );
   background-size: 100% 1em !important;
 }
-.social {
-  padding: 0em 2em !important;
-}
-#sidebar, .tags, .categories {
-  padding: .25em 2em !important;
-}
 #sidebar, .social, .tags, .categories {
+  padding: .25em 2em !important;
   max-width: 12em;
   border: solid 2px #16161D;
 }
@@ -89,18 +80,11 @@ a {
 .posts {
   min-height: 12em;
 }
-  .categories, .tags {
+.categories, .tags {
   background-color: #16161D;
 }
 
-#paginator {
-  text-align: left;
-}
-.pure-button-red {
-  background-color: #CE0000;
-}
-
-/* Sidebar - Social */
+/* Sidebar>Social */
 .social li {
   list-style-type: none;
   display: inline-block !important;
@@ -109,6 +93,14 @@ a {
   padding-left: 25px;
   background-repeat: no-repeat;
   text-decoration: none;
+}
+
+/* Paginator */
+#paginator {
+  text-align: left;
+}
+.pure-button-red {
+  background-color: #CE0000;
 }
 
 /* Icons */
