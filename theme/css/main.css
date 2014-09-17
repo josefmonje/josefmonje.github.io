@@ -78,6 +78,7 @@ a {
     #ACACAC 50%,
     #ACACAC
   );
+  background-size: 100% 20px;
 }
 #paginator {
   text-align: right;
