@@ -180,11 +180,10 @@ a, .post-title {
     margin-bottom: 1em;
   }
   .pure-g {
-    padding: 0em 8em 0em 8em;
+    padding: 1em 8em 1em 8em;
     margin-bottom: -1em;
   }
   .pure-menu-heading {
-    padding: 2em 0em 2em 0em;
     font-size: 300% !important;
   }
   .reveal {
