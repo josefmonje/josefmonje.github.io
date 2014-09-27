@@ -176,7 +176,7 @@ a, .post-title {
 }
 @media screen and (min-width: 64em) {
   header {
-    padding: 1em 0em 1em 0em;
+    padding: 0em 0em 1em 0em;
     margin-bottom: 1em;
   }
   .pure-g {
@@ -184,6 +184,7 @@ a, .post-title {
     margin-bottom: -1em;
   }
   .pure-menu-heading {
+    padding: 1em 0em 1em 0em !important;
     font-size: 300% !important;
   }
   .reveal {
