@@ -6,8 +6,8 @@ http://josefmonje.com/index.html
 http://josefmonje.com/archives.html
 http://josefmonje.com/tags.html
 http://josefmonje.com/categories.html
-http://josefmonje.com/nes-design.html
+http://josefmonje.com/hello-world.html
 http://josefmonje.com/category/random.html
-http://josefmonje.com/tag/design.html
+http://josefmonje.com/tag/blog.html
 http://josefmonje.com/tag/josefmonjecom.html
 http://josefmonje.com/author/josef-monje.html
