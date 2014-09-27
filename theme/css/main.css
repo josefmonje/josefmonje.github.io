@@ -184,6 +184,7 @@ a, .post-title {
     margin-bottom: -1em;
   }
   .pure-menu-heading {
+    padding: 1em 0em 1em 0em;
     font-size: 300% !important;
   }
   .reveal {
