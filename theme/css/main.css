@@ -174,7 +174,7 @@ a, .post-title {
     padding: 1em 0em 1em;
   }
   .posts {
-  min-height: 60%;
+  min-height: 12em;
   }
 }
 @media screen and (min-width: 64em) {
