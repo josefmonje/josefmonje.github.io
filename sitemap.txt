@@ -6,10 +6,12 @@ https://josefmonje.com/index.html
 https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
 https://josefmonje.com/categories.html
+https://josefmonje.com/november.html
 https://josefmonje.com/jaycees.html
 https://josefmonje.com/hello-world.html
 https://josefmonje.com/category/random.html
 https://josefmonje.com/tag/blog.html
+https://josefmonje.com/tag/life.html
 https://josefmonje.com/tag/jaycees.html
 https://josefmonje.com/tag/josefmonjecom.html
 https://josefmonje.com/tag/jci.html

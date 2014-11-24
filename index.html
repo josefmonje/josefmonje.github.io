@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="text/javascript">
+  var host = "josefmonje.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+  </script>
   <title>Personal Blog of Josef Monje</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,11 +34,6 @@
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Press+Start+2P' />
   <link rel="stylesheet" href="https://josefmonje.com/theme/css/pure-min.css" type="text/css" />
   <link rel="stylesheet" href="https://josefmonje.com/theme/css/main.css" type="text/css" />
-  <script type="text/javascript">
-  var host = "josefmonje.com";
-  if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-  </script>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -81,6 +81,7 @@
   <section class="posts">
     <h2 class="retro">Latest posts:</h2>
       <ul>
+          <li><a href="https://josefmonje.com/#/november.html" rel="bookmark" title="Permalink to November">November</a></li>
           <li><a href="https://josefmonje.com/#/jaycees.html" rel="bookmark" title="Permalink to Jaycees">Jaycees</a></li>
           <li><a href="https://josefmonje.com/#/hello-world.html" rel="bookmark" title="Permalink to Hello World!">Hello World!</a></li>
       </ul>
@@ -114,7 +115,7 @@
 URLS = function($routeProvider) { 
   $routeProvider
     .when('/', {
-      templateUrl: '/archives.html',
+      templateUrl: '/blog.html',
     })
     .when('/:path*\/?', {
       templateUrl: function($routeParams){
