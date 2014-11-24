@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script type="text/javascript" src="https://josefmonje.com/theme/js/ssl.js"></script>
   <title>Personal Blog of Josef Monje</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,6 +29,11 @@
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Press+Start+2P' />
   <link rel="stylesheet" href="https://josefmonje.com/theme/css/pure-min.css" type="text/css" />
   <link rel="stylesheet" href="https://josefmonje.com/theme/css/main.css" type="text/css" />
+  <script type="text/javascript">
+  var host = "josefmonje.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+  </script>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -104,7 +108,33 @@
 <script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular.min.js"></script>
 <script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular-route.min.js"></script>
 <script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular-animate.min.js"></script>
-<script type="text/javascript" src="https://josefmonje.com/theme/js/routes.js"></script>
+<script type="text/javascript">
+(function() {
+'use strict;'
+URLS = function($routeProvider) { 
+  $routeProvider
+    .when('/', {
+      templateUrl: '/archives.html',
+    })
+    .when('/:path*\/?', {
+      templateUrl: function($routeParams){
+        return $routeParams.path
+      },
+    })
+    .otherwise({
+      redirectTo: '/'})
+}
+angular
+  .module('app', [
+    'ngRoute',
+    'ngAnimate',
+  ])
+  .config([
+    '$routeProvider',
+    URLS,
+  ])
+})();
+</script>
 <script type="text/javascript" src="https://josefmonje.com/theme/js/signet.min.js"></script>
 </div>
 </body>
