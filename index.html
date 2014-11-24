@@ -81,7 +81,6 @@
   <section class="posts">
     <h2 class="retro">Latest posts:</h2>
       <ul>
-          <li><a href="https://josefmonje.com/#/november.html" rel="bookmark" title="Permalink to November">November</a></li>
           <li><a href="https://josefmonje.com/#/jaycees.html" rel="bookmark" title="Permalink to Jaycees">Jaycees</a></li>
           <li><a href="https://josefmonje.com/#/hello-world.html" rel="bookmark" title="Permalink to Hello World!">Hello World!</a></li>
       </ul>
@@ -115,7 +114,7 @@
 URLS = function($routeProvider) { 
   $routeProvider
     .when('/', {
-      templateUrl: '/blog.html',
+      templateUrl: '/archives.html',
     })
     .when('/:path*\/?', {
       templateUrl: function($routeParams){
