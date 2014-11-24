@@ -131,8 +131,8 @@ a, .post-title {
 .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
 .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 
-.sumome-share-client-share {
-  visibility: none !important;
+.sumome-share-client-share, .sumome-share-client-share>a {
+  display: none !important;
 }
 /* Screens */
   header {
