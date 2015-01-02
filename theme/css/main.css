@@ -43,6 +43,9 @@ a, .post-title {
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
 }
+#content {
+  font-size: 80%;
+}
 
 /* Animation */
 @-webkit-keyframes fade_in {
