@@ -134,6 +134,7 @@ a, .post-title {
 div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.sumome-share-client-small > a:nth-child(6) {
   display: none !important;
 }
+
 /* Screens */
   header {
     margin-bottom: 0em;
