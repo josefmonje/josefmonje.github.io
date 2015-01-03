@@ -71,17 +71,6 @@ a, .post-title {
   background-color: #CE0000;
 }
 
-/* Sidebar>Social */
-.social li {
-  list-style-type: none;
-  display: inline-block !important;
-}
-.social a {
-  padding-left: 25px;
-  background-repeat: no-repeat;
-  text-decoration: none;
-}
-
 /* Sidebar */
 #sidebar {
   background: linear-gradient(
@@ -108,6 +97,17 @@ a, .post-title {
 }
 .categories, .tags {
   background-color: #16161D;
+}
+
+/* Sidebar>Social */
+.social li {
+  list-style-type: none;
+  display: inline-block !important;
+}
+.social a {
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  text-decoration: none;
 }
 
 /* Social Icons */
