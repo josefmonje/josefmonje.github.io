@@ -6,6 +6,7 @@ https://josefmonje.com/index.html
 https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
 https://josefmonje.com/categories.html
+https://josefmonje.com/pages/creations.html
 https://josefmonje.com/web-development-in-python.html
 https://josefmonje.com/famous.html
 https://josefmonje.com/jaycees.html
