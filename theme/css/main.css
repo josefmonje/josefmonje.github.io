@@ -40,11 +40,14 @@ ul {
 a, .post-title {
   color: #CE0000;
 }
+#content {
+  font-size: 90%;
+}
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
 }
-#content {
-  font-size: 90%;
+.cb-tip-button {
+  margin-left: 50px;
 }
 
 /* Animation */
