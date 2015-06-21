@@ -158,7 +158,7 @@ div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.
     font-size: 150%;
   }
   #content, #paginator {
-    padding: 0em 0em 0em;
+    padding: 0em 0em 1em;
   }
   .posts {
   min-height: 12em;
@@ -179,7 +179,7 @@ div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.
     padding: 0em 2em .5em 2em;
   }
   #content, #paginator {
-    padding: 1em 0em 1em;
+    padding: 1em 0em 2.5em;
   }
   .posts {
   min-height: 16em;
