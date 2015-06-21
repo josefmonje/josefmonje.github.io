@@ -59,8 +59,8 @@ a, .post-title {
 .reveal.ng-enter {
   -webkit-animation: fade_in .5s linear; /* Safari/Chrome */
   animation: fade_in .5s linear; /* IE10+ and Future Browsers */
-  -webkit-animation-fill-mode: forwards;  
-  animation-fill-mode: forwards;  
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 /* Paginator */
@@ -156,6 +156,7 @@ div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.
   }
   article p {
     font-size: 150%;
+    padding: 0em 0em 1.5em 0em;
   }
   #content, #paginator {
     padding: 0em 0em 0em;
