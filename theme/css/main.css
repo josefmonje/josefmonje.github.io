@@ -59,12 +59,18 @@ a, .pure-menu-heading {
 }
 
 
+/* Pure-menu overrides */
 .pure-menu {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   color: #CE0000 !important;
 }
+
+.pure-menu li a {
+  padding: 7px 1em;
+}
+
 
 /* About page */
 .profile-pic {
@@ -125,14 +131,13 @@ a, .pure-menu-heading {
 
 /* Sidebar>Social */
 .social {
-  min-height: 16px;
+  min-height: 1.5em;
 }
 .social li {
   list-style-type: none;
   display: inline-block !important;
 }
 .social a {
-  padding-left: 25px;
   background-repeat: no-repeat;
   text-decoration: none;
 }
