@@ -7,6 +7,7 @@ URLS = function($routeProvider) {
     })
     .when('/:path*\/?', {
       templateUrl: function($routeParams){
+        console.log('articles/' + $routeParams.path)
         return 'articles/' + $routeParams.path
       },
     })
