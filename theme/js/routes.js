@@ -3,11 +3,11 @@
 URLS = function($routeProvider) {
   $routeProvider
     .when('/', {
+      templateUrl: '/pages/about-me.html',
+    })
+    .when('/blog/', {
       templateUrl: '/archives.html',
     })
-    // .when('/blog/', {
-    //   templateUrl: '/archives.html',
-    // })
     .when('/:path*\/?', {
       templateUrl: function($routeParams){
         return $routeParams.path
