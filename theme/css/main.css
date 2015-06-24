@@ -119,13 +119,16 @@ a, .pure-menu-heading {
   border: solid 2px #16161D;
 }
 #sidebar h2{
-  padding-top: 2em;
+  padding-top: 2.5em;
 }
 #sidebar h2, #sidebar a,.tags a, .categories a {
   color: #FFFFFF;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
 
+.posts ul {
+  padding-top: 1.5em;
+}
 .posts ul li {
   list-style-type: none;
 }
