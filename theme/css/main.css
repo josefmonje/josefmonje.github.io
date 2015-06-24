@@ -67,7 +67,13 @@ a, .pure-menu-heading {
   color: #CE0000 !important;
 }
 .pure-menu li a {
-  padding: 7px 1em;
+  padding: 7px 1em !important;
+}
+.pure-menu li a:hover {
+  background: transparent !important;
+}
+.pure-menu.pure-menu-horizontal>ul {
+  vertical-align: sub !important;
 }
 
 
@@ -131,6 +137,7 @@ a, .pure-menu-heading {
 /* Sidebar>Social */
 .social {
   min-height: 1.5em;
+  padding-left: 1.5em;
 }
 .social li {
   list-style-type: none;
