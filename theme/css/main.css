@@ -129,6 +129,7 @@ a, .pure-menu-heading {
 }
 .posts ul li a {
   font-family: 'Open Sans', sans-serif;
+  line-height: 2.5em !important;
 }
 
 
