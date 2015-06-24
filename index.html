@@ -116,8 +116,6 @@
   <!-- .tags -->
   <section class="tags">
     <a class="retro" href="https://josefmonje.com/#/tags.html"><h2>Topics</h2></a>
-    <div class="cb-tip-button" data-content-location="https://josefmonje.com" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="546b592be74c95dbab000105"></div>
-    <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
   </section>
   <!-- /.tags -->
 
@@ -127,43 +125,14 @@
 <!-- footer -->
 <div class="pure-u-1-1">
 <footer>
-  <small>&copy; Josef Monje</small>
+  <small>&copy; 2014-2015 Josef Monje</small>
 </footer>
 </div>
 </div>
 <script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular.min.js"></script>
 <script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular-route.min.js"></script>
 <script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular-animate.min.js"></script>
-<script type="text/javascript">
-(function() {
-'use strict;'
-URLS = function($routeProvider) {
-  $routeProvider
-    .when('/', {
-      templateUrl: '/archives.html',
-    })
-    .when('/blog/', {
-      templateUrl: '/archives.html',
-    })
-    .when('/:path*\/?', {
-      templateUrl: function($routeParams){
-        return $routeParams.path
-      },
-    })
-    .otherwise({
-      redirectTo: '/'})
-}
-angular
-  .module('app', [
-    'ngRoute',
-    'ngAnimate',
-  ])
-  .config([
-    '$routeProvider',
-    URLS,
-  ])
-})();
-</script>
+<script type="text/javascript" src="https://josefmonje.com/theme/js/routes.js"></script>
 <script type="text/javascript" src="https://josefmonje.com/theme/js/signet.min.js"></script>
 </body>
 </html>
