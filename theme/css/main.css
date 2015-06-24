@@ -29,7 +29,7 @@ li, tr, dl, dt, dd {
   line-height: 1.75em !important;
 }
 ul {
-  padding: 0 0 0 0px !important;
+  padding: 0 0 0 0px;
 }
 a, .pure-menu-heading {
   color: #CE0000;
