@@ -66,10 +66,12 @@ a, .pure-menu-heading {
   color: #CE0000 !important;
 }
 
+/* About page */
 .profile-pic {
   border-radius: 11em;
   float: left;
 }
+
 
 /* Paginator */
 #paginator {
@@ -101,6 +103,7 @@ a, .pure-menu-heading {
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   line-height: 1.5em !important;
 }
+
 .posts ul li {
   list-style-type: none;
 }
@@ -108,7 +111,7 @@ a, .pure-menu-heading {
   font-family: 'Open Sans', sans-serif;
 }
 .social, .categories, .tags {
-  background-color: #16161D;
+  background-color: #FFFFFF;
 }
 
 
