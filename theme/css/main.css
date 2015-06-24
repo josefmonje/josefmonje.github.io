@@ -95,6 +95,9 @@ a, .post-title {
 .posts li {
   list-style-type: none;
 }
+.posts li a {
+  font-family: 'Open Sans', sans-serif;
+}
 .categories, .tags {
   background-color: #16161D;
 }
