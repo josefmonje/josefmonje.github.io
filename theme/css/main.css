@@ -119,7 +119,7 @@ a, .pure-menu-heading {
   border: solid 2px #16161D;
 }
 #sidebar h2{
-  margin-top: 2em;
+  padding-top: 2em;
 }
 #sidebar h2, #sidebar a,.tags a, .categories a {
   color: #FFFFFF;
