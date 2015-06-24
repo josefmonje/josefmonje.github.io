@@ -6,6 +6,7 @@ https://josefmonje.com/index.html
 https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
 https://josefmonje.com/categories.html
+https://josefmonje.com/pages/hi-im-josef.html
 https://josefmonje.com/software-defined-radio.html
 https://josefmonje.com/twitter-and-texting-bots.html
 https://josefmonje.com/web-development-in-python.html
