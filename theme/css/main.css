@@ -66,6 +66,10 @@ a, .pure-menu-heading {
   color: #CE0000 !important;
 }
 
+.profile-pic {
+  border-radius: 11em;
+  float: left;
+}
 
 /* Paginator */
 #paginator {
