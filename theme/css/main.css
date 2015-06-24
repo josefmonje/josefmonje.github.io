@@ -127,7 +127,7 @@ a, .pure-menu-heading {
 }
 
 .posts ul {
-  padding-top: 1.5em;
+  padding-top: 1.5em !important;
 }
 .posts ul li {
   list-style-type: none;
