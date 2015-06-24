@@ -69,11 +69,12 @@ a, .pure-menu-heading {
 .pure-menu li a {
   padding: 7px 1em !important;
 }
-.pure-menu li a:hover {
+.pure-menu li a:hover, .pure-menu li a:focus {
   background: transparent !important;
 }
 .pure-menu.pure-menu-horizontal>ul {
   vertical-align: sub !important;
+  padding-left: 1.5em !important;
 }
 
 
@@ -134,7 +135,6 @@ a, .pure-menu-heading {
 /* Sidebar>Social */
 .social {
   min-height: 1.5em;
-  padding-left: 1.5em !important;
 }
 .social li {
   list-style-type: none;
