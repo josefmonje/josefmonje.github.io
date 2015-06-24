@@ -3,6 +3,7 @@ https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
 https://josefmonje.com/categories.html
 https://josefmonje.com/index.html
+https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
 https://josefmonje.com/pages/about-me.html
 https://josefmonje.com/software-defined-radio.html
