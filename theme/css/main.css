@@ -152,6 +152,7 @@ div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.
   }
   .pure-menu-heading {
     font-size: 150% !important;
+    text-transform: none !important;
     padding-bottom: 0em;
   }
   .reveal {
@@ -177,6 +178,7 @@ div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.
   }
   .pure-menu-heading {
     font-size: 200% !important;
+    text-transform: none !important;
     padding-bottom: .5em;
   }
   .reveal {
@@ -200,6 +202,7 @@ div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.
   }
   .pure-menu-heading {
     padding: 1em 0em .5em 1em !important;
+    text-transform: none !important;
     font-size: 300% !important;
   }
   .reveal {
