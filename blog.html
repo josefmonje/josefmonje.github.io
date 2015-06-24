@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript">
+  // iframe breaker
+    if (window.top !== window.self) {
+       window.top.location = window.self.location;
+    }
+  // https enforcer
+  var host = "josefmonje.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+  </script>
+  <title>Personal Blog of Josef Monje</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Meta tags -->
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Josef Monje",
+      "url" : "https://josefmonje.com",
+      "sameAs" : [
+        "http://twitter.com/josefmonje",
+        "https://github.com/josefmonje",
+        "http://linkedin.com/in/josefmonje",
+        "http://plus.google.com/+JosefMonje"
+      ]
+    }
+    </script>
+    <meta name="description" content="Personal blog of Josef Monje" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Josef Monje .com" />
+    <meta name="twitter:site" content="@josefmonje">
+    <meta name="twitter:site:id" content="@josefmonje">
+    <meta name="twitter:creator" content="@josefmonje">
+    <meta name="twitter:creator:id" content="@josefmonje">
+    <meta name="twitter:domain" content="https://josefmonje.com">
+    <meta name="twitter:description" content="Personal blog of Josef Monje" />
+    <meta property="og:url" content="https://josefmonje.com">
+    <meta property="og:title" content="Josef Monje .com" />
+    <meta property="og:site_name" content="JosefMonje" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Personal blog of Josef Monje" />
+    <meta itemprop="name" content="JosefMonje">
+    <meta itemprop="image" content="">
+    <meta itemprop="description" content="Personal blog of Josef Monje">
+    <meta name="signet:authors" content="Josef Monje">
+    <meta name="signet:links" content="https://github.com/josefmonje, https://twitter.com/josefmonje, https://plus.google.com/+JosefMonje">
+    <!-- Meta tags -->
+  <link rel="alternate" type="application/rss+xml" title="Blog Title" href="http://josefmonje.com/feeds/josef-monje.atom.xml" />
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Press+Start+2P' />
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300'>
+  <link rel="stylesheet" href="https://josefmonje.com/theme/css/pure-min.css" type="text/css" />
+  <link rel="stylesheet" href="https://josefmonje.com/theme/css/main.css" type="text/css" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body ng-app="app">
+<div class="pure-g">
+
+<!-- header -->
+<div class="pure-u-1-1">
+<header>
+  <div class="pure-menu pure-menu-open pure-menu-horizontal">
+    <a href="https://josefmonje.com" class="pure-menu-heading retro">Josef Monje</a>
+    <!-- pages -->
+    <ul>
+<li><a class="page-link" href="https://josefmonje.com/#/pages/about-me.html">About me</a></li>    </ul>
+    <!-- /pages -->
+  </div>
+</header>
+</div>
+<!-- /header -->
+
+<!-- content -->
+<div id="content" class="pure-u-3-4">
+  <div class="reveal" ng-view></div>
+</div>
+<!-- /content -->
+
+<!-- #sidebar -->
+<div class="pure-u-1-4">
+  <div>
+  <!-- .social -->
+  <div class="social">
+    <ul>
+      <li><a href="https://github.com/josefmonje"></a></li>
+      <li><a href="http://twitter.com/josefmonje"></a></li>
+      <li><a href="http://plus.google.com/+JosefMonje"></a></li>
+      <li><a href="http://linkedin.com/in/josefmonje"></a></li>
+      <li><a href="http://josefmonje.com/feeds/josef-monje.atom.xml"></a></li>
+    </ul>
+  </div>
+  <!-- /.social -->
+  </div>
+  <div id="sidebar">
+  <!-- .article-list -->
+  <section class="posts">
+    <h2 class="retro">Latest posts:</h2>
+      <ul>
+          <li><a href="https://josefmonje.com/#/software-defined-radio.html" rel="bookmark" title="Permalink to Software-Defined Radio">Software-Defined Radio</a></li>
+          <li><a href="https://josefmonje.com/#/twitter-and-texting-bots.html" rel="bookmark" title="Permalink to Twitter and Texting Bots">Twitter and Texting Bots</a></li>
+          <li><a href="https://josefmonje.com/#/web-development-in-python.html" rel="bookmark" title="Permalink to Web Development in Python">Web Development in Python</a></li>
+          <li><a href="https://josefmonje.com/#/famous.html" rel="bookmark" title="Permalink to Famo.us">Famo.us</a></li>
+      </ul>
+  </section>
+  <!-- /.article-list -->
+  </div>
+
+  <!-- .categories -->
+  <!-- /.categories -->
+
+  <!-- .tags -->
+  <section class="tags">
+    <a class="retro" href="https://josefmonje.com/#/tags.html"><h2>Topics</h2></a>
+  </section>
+  <!-- /.tags -->
+
+</div>
+<!-- /#sidebar -->
+
+<!-- footer -->
+<div class="pure-u-1-1">
+<footer>
+  <small>&copy; 2014-2015 Josef Monje</small>
+</footer>
+</div>
+</div>
+<script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular.min.js"></script>
+<script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular-route.min.js"></script>
+<script type="text/javascript" src="https://code.angularjs.org/1.2.24/angular-animate.min.js"></script>
+<script type="text/javascript" src="https://josefmonje.com/theme/js/routes.js"></script>
+<script type="text/javascript" src="https://josefmonje.com/theme/js/signet.min.js"></script>
+</body>
+</html>

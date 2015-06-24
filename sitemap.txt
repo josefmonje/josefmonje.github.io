@@ -3,9 +3,7 @@ https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
 https://josefmonje.com/categories.html
 https://josefmonje.com/index.html
-https://josefmonje.com/archives.html
 https://josefmonje.com/tags.html
-https://josefmonje.com/categories.html
 https://josefmonje.com/pages/about-me.html
 https://josefmonje.com/software-defined-radio.html
 https://josefmonje.com/twitter-and-texting-bots.html
@@ -13,7 +11,7 @@ https://josefmonje.com/web-development-in-python.html
 https://josefmonje.com/famous.html
 https://josefmonje.com/jaycees.html
 https://josefmonje.com/hello-world.html
-https://josefmonje.com/category/random.html
+https://josefmonje.com/category/all.html
 https://josefmonje.com/tag/hardware.html
 https://josefmonje.com/tag/jaycees.html
 https://josefmonje.com/tag/josefmonjecom.html
@@ -31,4 +29,3 @@ https://josefmonje.com/tag/flask.html
 https://josefmonje.com/tag/bots.html
 https://josefmonje.com/tag/hacking.html
 https://josefmonje.com/tag/jci.html
-https://josefmonje.com/author/josef-monje.html
