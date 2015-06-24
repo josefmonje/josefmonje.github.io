@@ -92,10 +92,10 @@ a, .post-title {
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   line-height: 1.5em !important;
 }
-.posts li {
+.posts ul li {
   list-style-type: none;
 }
-.posts li a {
+.posts ul li a {
   font-family: 'Open Sans', sans-serif;
 }
 .categories, .tags {
