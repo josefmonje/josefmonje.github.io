@@ -158,7 +158,7 @@ a, .pure-menu-heading {
     margin-bottom: -1em;
   }
   .pure-menu-heading {
-    font-size: 150% !important;
+    font-size: 140% !important;
     text-transform: none !important;
     padding-bottom: 0em;
   }
@@ -166,7 +166,7 @@ a, .pure-menu-heading {
     /*padding: 0em 1em 1.5em 1em;*/
   }
   article p {
-    font-size: 150%;
+    font-size: 140%;
     font-family: 'Open Sans', sans-serif;
   }
   #content, #paginator {
