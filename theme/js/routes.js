@@ -3,7 +3,7 @@
 URLS = function($routeProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: '/cover.html',
+      templateUrl: '/archives.html',
     })
     .when('/blog/', {
       templateUrl: '/archives.html',
