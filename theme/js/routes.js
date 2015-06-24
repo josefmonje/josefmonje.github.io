@@ -10,7 +10,7 @@ URLS = function($routeProvider) {
     })
     .when('/:path*\/?', {
       templateUrl: function($routeParams){
-        return $routeParams.path
+        return 'articles/' + $routeParams.path
       },
     })
     .otherwise({
