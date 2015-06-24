@@ -246,7 +246,3 @@ a, .pure-menu-heading {
 .social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
 .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
 .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
-
-div.sumome-share-client.sumome-share-client-left-page.sumome-share-client-light.sumome-share-client-small > a:nth-child(6) {
-  display: none !important;
-}
