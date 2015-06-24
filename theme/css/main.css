@@ -113,6 +113,7 @@ a, .pure-menu-heading {
     #16161D
   );
   background-size: 100% 1em !important;
+  margin-top: 2em;
 }
 #sidebar {
   padding: .25em 2em !important;
