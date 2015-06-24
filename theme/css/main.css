@@ -118,12 +118,15 @@ a, .pure-menu-heading {
 .posts ul li a {
   font-family: 'Open Sans', sans-serif;
 }
-.social, .categories, .tags {
+.categories, .tags {
   background-color: #FFFFFF;
 }
 
 
 /* Sidebar>Social */
+.social {
+  min-height: 16px;
+}
 .social li {
   list-style-type: none;
   display: inline-block !important;
