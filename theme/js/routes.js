@@ -2,7 +2,10 @@
 'use strict;'
 URLS = function($routeProvider) {
   $routeProvider
-    .when('', {
+    .when('/', {
+      templateUrl: '/index.html',
+    })
+    .when('/blog/', {
       templateUrl: '/archives.html',
     })
     .when('/:path*\/?', {
@@ -11,7 +14,7 @@ URLS = function($routeProvider) {
       },
     })
     .otherwise({
-      redirectTo: ''})
+      redirectTo: '/'})
 }
 
 angular
