@@ -73,6 +73,13 @@ a, .pure-menu-heading {
 }
 
 
+/* Page */
+.page p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2em;
+}
+
+
 /* Paginator */
 #paginator {
   text-align: left;
