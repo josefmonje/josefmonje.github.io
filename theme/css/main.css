@@ -31,7 +31,7 @@ li, tr, dl, dt, dd {
 ul {
   padding: 0 0 0 0px;
 }
-a, .pure-menu-heading {
+header div a  {
   color: #CE0000;
 }
 .retro, .post-title {
@@ -122,7 +122,7 @@ a, .pure-menu-heading {
   padding-top: 2.5em;
 }
 #sidebar h2, #sidebar a,.tags a, .categories a {
-  color: #FFFFFF !importan;
+  color: #FFFFFF !important;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
 
