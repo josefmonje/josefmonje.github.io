@@ -97,7 +97,7 @@ ul {
 #paginator {
   text-align: left;
 }
-.pure-button-red {
+article a, .pure-button-red {
   background-color: #CE0000;
 }
 
