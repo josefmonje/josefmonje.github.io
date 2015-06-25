@@ -32,7 +32,7 @@ ul {
   padding: 0 0 0 0px;
 }
 a, .pure-menu-heading {
-  color: #CE0000 !important;
+  color: #CE0000;
 }
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
