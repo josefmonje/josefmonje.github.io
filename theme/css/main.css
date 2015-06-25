@@ -31,13 +31,6 @@ li, tr, dl, dt, dd {
 ul {
   padding: 0 0 0 0px;
 }
-.retro, .post-title a {
-  font-family: 'Press Start 2P', cursive;
-  color: #6E6E6E;
-}
-#content {
-  font-size: 90%;
-}
 
 
 /* Animation */
@@ -57,6 +50,18 @@ ul {
 }
 
 
+p a {
+  color: #CE0000 !important;
+}
+.retro, .post-title a {
+  font-family: 'Press Start 2P', cursive;
+  color: #6E6E6E;
+}
+#content {
+  font-size: 90%;
+}
+
+
 /* Pure-menu overrides */
 .pure-menu {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
@@ -73,17 +78,17 @@ ul {
   vertical-align: sub !important;
   padding-left: 1.5em !important;
 }
-.pure-menu-heading  {
+.pure-menu-heading {
   color: #CE0000 !important;
+}
+.pure-button-red  {
+  background-color: #CE0000;
 }
 
 
 /* Paginator */
 #paginator {
   text-align: left;
-}
-a, .pure-button-red {
-  background-color: #CE0000;
 }
 
 
