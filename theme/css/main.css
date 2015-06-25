@@ -36,7 +36,7 @@ a, .pure-menu-heading {
 }
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
-  color: #6E6E6E;
+  color: #6E6E6E
 }
 #content {
   font-size: 90%;
@@ -65,7 +65,6 @@ a, .pure-menu-heading {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.25);
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.25);
-  color: #CE0000 !important;
 }
 .pure-menu li a {
   padding: 7px 1em !important;
