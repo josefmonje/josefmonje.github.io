@@ -78,6 +78,15 @@ ul {
 }
 
 
+/* Paginator */
+#paginator {
+  text-align: left;
+}
+a, .pure-button-red {
+  background-color: #CE0000;
+}
+
+
 /* About page */
 .profile-pic {
   border-radius: 11em;
@@ -90,15 +99,6 @@ ul {
 .page p {
   font-family: 'Open Sans', sans-serif;
   line-height: 2em !important;
-}
-
-
-/* Paginator */
-#paginator {
-  text-align: left;
-}
-article a, .pure-button-red {
-  background-color: #CE0000;
 }
 
 
