@@ -31,9 +31,6 @@ li, tr, dl, dt, dd {
 ul {
   padding: 0 0 0 0px;
 }
-header div a  {
-  color: #CE0000;
-}
 .retro, .post-title {
   font-family: 'Press Start 2P', cursive;
   color: #6E6E6E;
@@ -72,9 +69,12 @@ header div a  {
 .pure-menu li a:hover, .pure-menu li a:focus {
   background: transparent !important;
 }
-.pure-menu.pure-menu-horizontal>ul {
+.pure-menu.pure-menu-horizontal ul {
   vertical-align: sub !important;
   padding-left: 1.5em !important;
+}
+.pure-menu-heading  {
+  color: #CE0000;
 }
 
 
