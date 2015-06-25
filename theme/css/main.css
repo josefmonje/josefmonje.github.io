@@ -50,7 +50,7 @@ ul {
 }
 
 
-p a {
+.read-more, p a {
   color: #CE0000 !important;
 }
 .retro, .post-title, .post-title>a {
