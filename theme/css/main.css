@@ -53,7 +53,7 @@ ul {
 p a {
   color: #CE0000 !important;
 }
-.retro, .post-title a {
+.retro, .post-title, .post-title>a {
   font-family: 'Press Start 2P', cursive;
   color: #6E6E6E;
 }
