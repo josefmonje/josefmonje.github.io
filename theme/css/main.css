@@ -121,7 +121,7 @@ header div a  {
 #sidebar h2{
   padding-top: 2.5em;
 }
-#sidebar h2, #sidebar a,.tags a, .categories a {
+#sidebar h2, #sidebar a, .tags a, .categories a {
   color: #FFFFFF !important;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
