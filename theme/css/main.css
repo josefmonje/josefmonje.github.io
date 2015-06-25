@@ -31,7 +31,7 @@ li, tr, dl, dt, dd {
 ul {
   padding: 0 0 0 0px;
 }
-.retro, .post-title {
+.retro, .post-title a {
   font-family: 'Press Start 2P', cursive;
   color: #6E6E6E;
 }
