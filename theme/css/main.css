@@ -11,7 +11,7 @@ header {
   margin-bottom: .5em;
 }
 body {
-  /*margin: 0 0 1em; /* bottom = footer height */
+  margin: 0 0 2em; /*bottom = footer height*/
   background-color: #DDDDDD;
 }
 footer {
@@ -33,7 +33,7 @@ ul {
 }
 
 
-/* Animation */
+/* Animation
 @-webkit-keyframes fade_in {
   from { opacity:.2; }
   to { opacity:1; }
