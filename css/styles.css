@@ -24,6 +24,9 @@
   }
 }
 
+body {
+  margin: 0;
+}
 #body{
   font-family: Andale Mono, monospace;
   font-size: 13px;
