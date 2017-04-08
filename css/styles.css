@@ -26,6 +26,7 @@
 
 body {
   margin: 0;
+  background: #000;
 }
 #body{
   font-family: Andale Mono, monospace;
@@ -47,7 +48,7 @@ body {
   background: none;
   border: 0;
   width: 8px;
-  caret-color: #000000;
+  caret-color: #000;
 
 }
 #cursor{
