@@ -37,7 +37,7 @@ body {
   background: #000;
   line-height: 1.5em;
 }
-#body p, #body, pre{
+#body p, #body pre, #body input{
   color: #63de00 !important;
 }
 
