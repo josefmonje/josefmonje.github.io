@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/styles.css">
   <script type="text/javascript">
   // iframe breaker
     if (window.top !== window.self) {
@@ -53,25 +54,57 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<pre>
-   ____  ___)    /        
-  (, /   /  ,   /         
-    /---/      /          
- ) /   (___(_ o           
-(_/  _____                
-    (, /  /               
-      /   ___             
-  ___/__  // (_           
-(__ / _____               
-     (, /     .      /)   
-       /  ___(   _  |/    
-   ___/__(_) _)_(/_,4_    
- /   /             /;     
-(__ /             (/      
+<div id="body">
+  <p>Last login: <span id="date"></span> on http80</p>
+  <p>http-JosefMonje-com:~ $ cat /etc/motd</p>
+  <pre>
+     ____  ___)    /        
+    (, /   /  ,   /         
+      /---/      /          
+   ) /   (___(_ o           
+  (_/  _____                
+      (, /  /               
+        /   ___             
+    ___/__  // (_           
+  (__ / _____          _    
+       (, /     _     / )   
+         /  ___(   _  |/    
+     ___/__(_) _)_(/_,4__   
+   /   /              |\    
+  (__ /               (/    
 
-      \m/_(>_<)_\m/       
+        \m/_(>_<)_\m/       
 
-  ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ  
-</pre>
+    ʕ•̫͡•ʕ*̫͡*ʕ•͓͡•ʔ-̫͡-ʕ•̫͡•ʔ*̫͡*ʔ-̫͡-ʔ  
+  </pre>
+  <p>http-JosefMonje-com:~ $
+  <input id="input" type="text" oninput="cmd(this)" onkeydown="enter()"><label class="cursor" for="input"></label></p>
+</div>
+<script>
+var date_element = document.getElementById('date')
+var input_element = document.getElementById('input')
+var input
+var date = new Date().toLocaleDateString("en-US", {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'})
+date_element.innerHTML = date
+
+var cmd = function (input) {
+  input_element.style.width = ((input_element.value.length + 1) * 8) + 'px';
+}
+var enter = function () {
+  var keycode
+  var e = window.event
+  if(window.event) { // IE
+    keycode = e.keyCode
+  } else if(e.which){ // Netscape/Firefox/Opera
+    keycode = e.which
+  }
+  if (keycode == 13) {
+    input = input_element.value
+    input_element.value = ''
+    input_element.style.width = '8px'
+    console.log(input)
+  }
+}
+</script>
 </body>
 </html>
