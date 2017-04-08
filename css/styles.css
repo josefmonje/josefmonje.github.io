@@ -51,7 +51,7 @@ body {
   caret-color: #000000;
 
 }
-.cursor{
+#cursor{
   background: #63de00;
   display: inline-block;
   width: 11px;
@@ -62,7 +62,7 @@ body {
 }
 #input, #input:active, #input:focus{
 }
-#body .cursor{
+#body #cursor{
   -webkit-animation-name: blink;
   -webkit-animation-duration: .5s;
   -webkit-animation-iteration-count: infinite;
