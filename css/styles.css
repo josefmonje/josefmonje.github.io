@@ -30,37 +30,31 @@ body {
 }
 #body{
   font-family: Andale Mono, monospace;
-  font-size: 13px;
+  font-size: 1em;
   float: left;
   width: 100%;
-  min-height: 130px;
+  min-height: 100%;
   background: #000;
   line-height: 1.5em;
 }
-#body p, #body pre, #body input{
-  color: #63de00 !important;
-}
-
 #input{
   z-index: 9;
-  margin-bottom: -4px;
   outline: 0;
-  background: none;
   border: 0;
-  width: 8px;
   caret-color: #000;
-
+  background: none;
+  font-family: Andale Mono, monospace;
+  overflow-y: visible;
+  width: 1em;
 }
 #cursor{
   background: #63de00;
   display: inline-block;
-  width: 11px;
-  height: 19px;
-  margin-bottom: -4px;
-  margin-left: -8px;
+  width: .75em;
+  height: 1.25em;
+  margin-bottom: -.25em;
+  margin-right: 1em;
   z-index: -1;
-}
-#input, #input:active, #input:focus{
 }
 #body #cursor{
   -webkit-animation-name: blink;
@@ -79,8 +73,14 @@ body {
 #body p::selection{
   background: #0b209e;
 }
-#body p{
+#body p, #body pre, #body input{
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 13px;
+  font-size: 16px;
+  color: #63de00 !important;
+}
+.emphasize {
+  color: #74ff04;
+  font-weight: bold;
+  font-size: larger;
 }

@@ -6,8 +6,9 @@ var date = new Date().toLocaleDateString("en-US", {weekday: 'short', month: 'sho
 date_element.innerHTML = date
 
 var cmd = function (input) {
-  input_element.style.width = ((input_element.value.length + 1) * 8) + 'px';
+  input_element.style.width = (((input_element.value.length) * 12) - (input_element.value.length*2.4)) + 'px';
 }
+
 var enter = function () {
   var keycode
   var e = window.event
