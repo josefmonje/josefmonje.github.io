@@ -3,20 +3,13 @@
 <head>
   <link rel="stylesheet" href="css/styles.css">
   <script type="text/javascript">
-  // iframe breaker
-    if (window.top !== window.self) {
-       window.top.location = window.self.location;
-    }
-  // https enforcer
-  var host = "josefmonje.com";
-  if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
+  if (window.top !== window.self) {window.top.location = window.self.location}  // iframe breaker
+  if ((window.location.host == "josefmonje.com") && (window.location.protocol != "https:")) {window.location.protocol = "https"}  // https enforcer
   </script>
   <title>Personal Website of Josef Monje</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Meta tags -->
     <script type="application/ld+json">
     { "@context" : "http://schema.org",
       "@type" : "Person",
@@ -47,9 +40,6 @@
     <meta itemprop="name" content="JosefMonje">
     <meta itemprop="image" content="">
     <meta itemprop="description" content="Personal Website of Josef Monje">
-    <meta name="signet:authors" content="Josef Monje">
-    <meta name="signet:links" content="https://github.com/josefmonje, https://twitter.com/josefmonje, https://plus.google.com/+JosefMonje">
-    <!-- /Meta tags -->
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -58,62 +48,66 @@
   <p>Last login: <span id="date"></span> on http80</p>
   <p>https-JosefMonje-com:~ $ <span class="emphasize">whois JosefMonje</span>.com</p>
   <pre>
+
 Personal
 ----------
 Domain Name: JOSEFMONJE.COM
-Creation (birth) Date: 08-sep-1982
+Creation Date: 08-sep-1982
 E-mail: josefmonje@gmail&middot;com
+
 
 Technical
 ----------
-Languages: Python, JavaScript
+Languages: Python, JavaScript, bash
 Cloud Platforms: AWS, GCP, Firebase
-Hardware: Raspberry Pi, SDRs
+Hardware: Raspberry Pi
+Hobbies: SDR, InfoSec
 
 Preferred Frameworks:
   Front-end: Angular
-  Back-end: Django, Jupyter
+  Back-end: Django
+  Others: Jupyter, TensorFlow, Metasplot
 
 Open-source contributions:
   Python Course
     https://github.com/Cyscorpions/python-course/
-      Interactive Python learning materials from basic Python to web 
-      development using Python. Was initially deployed in AWS using docker. 
+      Interactive Python learning materials from basic Python to web
+      development using Python. Was deployed in AWS with docker.
   Python-Chikka
     https://github.com/makmac213/python-chikka/commits?author=josefmonje
-      Added reply functionality, required the necessary settings and added a 
-      way to instantiate the module via local settings.
+      Added reply functionality, required the necessary settings and added
+      a way to instantiate the module via local settings.
   Pyrebase
     https://github.com/thisbejim/Pyrebase/issues/51
-      Identified a bug and a temporary fix to resolve an issue related to 
-      the connection to Firebase.
+      Identified a bug and a temporary fix to resolve an issue related to
+      the Firebase connection resulting in a permission error.
   Tensorflow-Examples
     https://github.com/eldor4do/Tensorflow-Examples/commits?author=josefmonje
-      Bugfix for Python 2/3 compatibility.
+      Improvements for Python 2/3 compatibility.
   TF-ImageMatch
     https://github.com/josefmonje/tf-imagematch
-      A library that adds image classification capabilities to a Python 
-      project. Can also be used on the command=line.
+      A library and CLI command that adds image classification capabilities
+      to a Python project.
   Python.PH
     https://github.com/pythonph
-      Active contributor and organizer of events (meetups and PyCon) 
+      Active contributor and organizer of events (meetups and PyCon)
       as part of the organization's Board of Trustees.
 
 Professional
 ----------
-Technologist with insatiable curiosity and desire to build interesing new 
-things. Successfully managed a career shift from HR as an Analyst/Manager 
+Technologist with insatiable curiosity and desire to build interesing new
+things. Successfully managed a career shift from HR as an Analyst/Manager
 to become a technical leader in a large Japanese IT company.
 
 Last Modified: 25-jan-2016
-Currently an Expert (Python Specialist) at Cyscosrpions, Inc. handling 
-development of E-commerce Team projects. Previously part of the Training 
-Center as Expert in charge of training and skill development. Regularized 
-after 2 months. Was maintained as a consultant after the company down-sized, 
+Currently an Expert (Python Specialist) at Cyscosrpions, Inc. handling
+development of E-commerce Team projects. Previously part of the Training
+Center as Expert in charge of training and skill development. Regularized
+after 2 months. Was maintained as a consultant after the company down-sized,
 and is scheduled for re-hiring.
 
 Last Modified: 01-jul-2014
-Previously a freelace developer working on online services and hardware. 
+Previously a freelace developer working on online services and hardware.
 Conducts weekend Python and JavaScript programming training for students.
 
 Social
@@ -122,20 +116,20 @@ Github: @josefmonje
 Twitter: @josefmonje
 
 Tech Meetups in the Philippines Calendar
-  https://calendar.google.com/calendar/embed?src=cfad967t5t2dp78rf9g7pjuimk%40group.calendar.google.com
+  https://goo.gl/gzIFlw
     I consolidate meetup and other tech events in a public calendar.
 
 Organizations
   Python.PH - Member, Board of Trustees
-    Active contributor and organizer. Before becoming part of the Board of 
-    Trustees, I attended and sometimes gave talks during meetups. My focus 
-    now is on helping the organization reach more people, educate 
-    interested parties about Python programming and to provide development 
+    Active contributor and organizer. Before becoming part of the Board of
+    Trustees, I attended and gave some talks during meetups. My focus
+    now is on helping the organization reach more people, educate
+    interested parties about Python programming and to provide development
     opportunities to beginners and experienced Python developers.
 
 Education
 ----------
-Course: Software Applications
+Course: Software Application Systems
 School: University of the Philippines, ITDC
 Year: 2014
 

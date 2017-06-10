@@ -12,9 +12,9 @@ var cmd = function (input) {
 var enter = function () {
   var keycode
   var e = window.event
-  if(window.event) { // IE
+  if (window.event) { // IE
     keycode = e.keyCode
-  } else if(e.which){ // Netscape/Firefox/Opera
+  } else if (e.which) { // Netscape/Firefox/Opera
     keycode = e.which
   }
   if (keycode == 13) {
